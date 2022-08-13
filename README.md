@@ -17,5 +17,5 @@
 ## Ajuda e material de apoio
 ##### [Git+GitHub by Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
 ##### [Git+GitHub by Gustavo Guanabara](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-##### [Git+GitHub+Markdown by Gustavo Guanabara](../git_github_gguanabara/)
+##### [Git+GitHub+Markdown by Gustavo Guanabara](/git_github_gguanabara)
 ##### [Material didático da disciplina](https://drive.google.com/drive/folders/1Cjczcx-O7izOqtwkY0DaNuokbn9cJmOr)

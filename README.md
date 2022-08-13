@@ -1,6 +1,6 @@
 # AP3 - Unidade 1
 ## Exercício 1 - 0,5 ponto se entregar até 23:59h do dia 14/08/2022
-### [Vídeo explicando o exercício 1](https://drive.google.com/file/d/1-Q25mmSYbjMp7WLjfIhrMA1XgFYqkasI)
+### [Vídeo explicando o exercício 1](https://drive.google.com/file/d/11Gh8GFqeaZ875TH1Y-XyXEEIHHueZPd9)
 1. Crie sua conta no GitHub (escolha um nome profissional - delicinhaCremosa123 é um mal exemplo). *Sign-up* em github.com
 2. Baixe o [GitHub Desktop](https://desktop.github.com).
 3. Configure o GitHub Desktop com a conta criada.

@@ -1,7 +1,7 @@
-package br.com.xico.aula2.exercicios;
+package br.com.xico.aula3.exercicios;
 
+//4. Escreva um algoritmo que mostre o nome completo fornecido pelo usuário com todas as letras em máiusculo e em minusculo.
 public class Aula3_Q4_Strings {
-	//Teste da classe string, maiusculo e minusculo
 	public static void main(String[] args) {
 		String nome = "Xico";
 		String sobrenome = "Arruda";

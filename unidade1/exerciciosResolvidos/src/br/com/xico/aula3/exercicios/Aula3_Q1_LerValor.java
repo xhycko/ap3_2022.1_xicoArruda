@@ -1,13 +1,9 @@
-package br.com.xico.aula2.exercicios;
+package br.com.xico.aula3.exercicios;
 
 import java.util.Scanner;
 
+//1. Ler um valor da entrada padr√£o e escrever: √â MAIOR QUE 10! se o valor lido for maior que 10 caso contr√°rio escrever N√ÉO √â MAIOR QUE 10.
 public class Aula3_Q1_LerValor {
-	/*
-	 * Ler um valor da entrada padr„o e escrever: … MAIOR QUE 10! se o valor
-	 * lido for maior que 10 caso contr·rio escrever N√O … MAIOR QUE 10
-	 */
-
 	public static void main(String[] args) {
 		Scanner entradaPadrao = new Scanner(System.in);
 		int valorLido = entradaPadrao.nextInt();

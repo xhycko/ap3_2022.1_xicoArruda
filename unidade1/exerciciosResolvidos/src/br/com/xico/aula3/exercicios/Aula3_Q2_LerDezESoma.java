@@ -1,13 +1,9 @@
-package br.com.xico.aula2.exercicios;
+package br.com.xico.aula3.exercicios;
 
 import java.util.Scanner;
 
+//2. Escreva um algoritmo para ler 10 nÃºmeros. Ao final da leitura escrever a todos os nÃºmeros lidos e a mÃ©dia deles.
 public class Aula3_Q2_LerDezESoma {
-
-	/*
-	 * Escreva um algoritmo para ler 10 números e ao final da leitura escrever a
-	 * soma total dos 10 números lidos.
-	 */
 	public static void main(String[] args) {
 		Scanner entradaPadrao = new Scanner(System.in);
 		int valorLido = 0;

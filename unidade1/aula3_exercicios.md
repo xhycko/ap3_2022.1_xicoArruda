@@ -18,6 +18,10 @@
 5. Faça uma classe Caneta, que tem um modelo, uma cor, a numeração da ponta, o nível de tinta atual e se ela encontra-se tampada ou não. Escreva a classe TestaCaneta, que testa todas as funcionalidade da classe criada.
 
 6. Faça uma classe em Java com um método main() que leia da entrada padrão a velocidade máxima permitida em uma avenida e leia a velocidade com que o motorista estava dirigindo nela. Calcule e mostre a multa que uma pessoa vai receber, sabendo os valores:
-    2.1. Multa de R$ 50 reais se o motorista ultrapassar em até 10km/h a velocidade permitida
-    2.2. Multa de R$ 100 reais se o motorista ultrapassar de 11 a 30 km/h a velocidade permitida
-    2.3. Multa de R$ 200 reais se estiver acima de 31km/h da velocidade permitida
+
+    6.1. Multa de R$ 50 reais se o motorista ultrapassar em até 10km/h a velocidade permitida
+    
+    6.2. Multa de R$ 100 reais se o motorista ultrapassar de 11 a 30 km/h a velocidade permitida
+    
+    6.3. Multa de R$ 200 reais se estiver igual e acima de 31km/h da velocidade permitida
+ 

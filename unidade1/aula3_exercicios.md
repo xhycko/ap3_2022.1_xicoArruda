@@ -6,7 +6,7 @@
 3. Escreva um algoritmo para ler 10 números e ao final da leitura escrever a soma total dos 10 números lidos.
 4. Escreva um algoritmo que mostre o nome completo fornecido pelo usuário com todas as letras em máiusculo e em minusculo.
 
-## Exercícios para os alunos - 0,5 pontos se entregar até ??/08/2022
+## Exercícios para os alunos - 0,5 pontos se entregar até 24/08/2022
 1. Sabendo que latão é constituído de 70% de cobre e 30% de zinco, faça um programa em Java que indique a quantidade de cada um desses componentes para se obter uma certa quantidade de latão (a quantidade deve ser requerida do usuário).
 
 2. Escreva um programa em Java para ler o nome e a idade de uma pessoa. Exiba quantos dias de vida ela possui. Considere sempre anos completos, e que um ano possui 365 dias. Ex: uma pessoa com 19 anos possui 6935 dias de vida Um exemplo de saída: "MARIA, VOCÊ JÁ VIVEU 6935 DIAS!"

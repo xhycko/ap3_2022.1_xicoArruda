@@ -10,7 +10,7 @@
 - Escreva uma classe TestaEmpregado.java que demonstra as capacidades da classe. Crie duas instâncias da classe e exiba o salário anual de cada instância.
 - *Bônus*: peça ao usuário as entradas de dados para criar os empregados.
 
-## Exercícios para os alunos - 0,5 pontos se entregar até ??/08/2022
+## Exercícios para os alunos - 0,5 pontos se entregar até 31/08/2022
 1. Mova para o pacote br.com.seuNome.ap3. todos os seus exercícios resolvidos na unidade 1. No lugar de seuNome coloque o seu primeiro nome.
 
 2. Faça um programa em Java que gere um número aleatório inteiro entre 0 e 100 e solicite um número ao usuário. 

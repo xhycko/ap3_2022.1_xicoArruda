@@ -22,11 +22,37 @@ public class Empregado {
         this.salarioMensal = salarioMensal;
     }
 
-    public Empregado(String primeiroNome) {
+    public String getPrimeiroNome() {
+        return primeiroNome;
     }
 
-    public Empregado() {
+    public void setPrimeiroNome(String primeiroNome) {
+        this.primeiroNome = primeiroNome;
+    }
 
+    public String getSobrenome() {
+        return sobrenome;
+    }
+
+    public void setSobrenome(String sobrenome) {
+        this.sobrenome = sobrenome;
+    }
+
+    public double getSalarioMensal() {
+        return salarioMensal;
+    }
+
+    public void setSalarioMensal(double salarioMensal) {
+        if(salarioMensal < 0.0)
+            this.salarioMensal = 0.0;
+        else
+            this.salarioMensal = salarioMensal;
+    }
+
+    @Override
+    public String toString() {
+        return "Empregado [primeiroNome=" + primeiroNome + ", salarioMensal=" + salarioMensal + ", sobrenome="
+                + sobrenome + "]";
     }
 
 }

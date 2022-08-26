@@ -4,12 +4,11 @@
 1. Criação do projeto no VSCode com *fully qualified name* br.com.xico.ap3;
 2. Javadoc do projeto.
 3. Crie o ProjetoEmpregado no VSCode, com *fully qualified name*. Implemente a seguinte especificação:
-Para representar empregados em uma firma, crie uma classe chamada Empregado.java que inclui as três informações a seguir como atributos: um primeiro nome, um sobrenome, um salário mensal.
+- Para representar empregados em uma firma, crie uma classe chamada Empregado.java que inclui as seguintes informações como atributos: um primeiro nome, um sobrenome, um salário mensal.
 - Sua classe deve ter um construtor que inicializa os três atributos.
 - Forneça um método set e get para cada atributo. Se o salário mensal não for positivo, configure-o como 0.0.
 - Escreva uma classe TestaEmpregado.java que demonstra as capacidades da classe. Crie duas instâncias da classe e exiba o salário anual de cada instância.
-
-Bônus: peça ao usuário as entradas de dados para criar os empregados.
+- *Bônus*: peça ao usuário as entradas de dados para criar os empregados.
 
 ## Exercícios para os alunos - 0,5 pontos se entregar até ??/08/2022
 1. Mova para o pacote br.com.seuNome.ap3. todos os seus exercícios resolvidos na unidade 1. No lugar de seuNome coloque o seu primeiro nome.

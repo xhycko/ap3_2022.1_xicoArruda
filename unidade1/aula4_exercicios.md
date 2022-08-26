@@ -1,27 +1,22 @@
-# Aula 3
+# Aula 4
 
 ## Exercícios resolvidos por Xico em sala de aula
-1. Ler um valor da entrada padrão e escrever: É MAIOR QUE 10! se o valor lido for maior que 10 caso contrário escrever NÃO É MAIOR QUE 10.
-2. Escreva um algoritmo para ler 10 números. Ao final da leitura escrever a todos os números lidos e a média deles.
-3. Escreva um algoritmo para ler 10 números e ao final da leitura escrever a soma total dos 10 números lidos.
-4. Escreva um algoritmo que mostre o nome completo fornecido pelo usuário com todas as letras em máiusculo e em minusculo.
+1. Criação do projeto no VSCode com *fully qualified name* br.com.xico.ap3;
+2. Javadoc do projeto.
+3. A fim de representar empregados em uma firma, crie uma classe chamada Empregado que inclui as três informações a seguir como atributos:
 
-## Exercícios para os alunos - 0,5 pontos se entregar até 24/08/2022
-1. Sabendo que latão é constituído de 70% de cobre e 30% de zinco, faça um programa em Java que indique a quantidade de cada um desses componentes para se obter uma certa quantidade de latão (a quantidade deve ser requerida do usuário).
+um primeiro nome
 
-2. Escreva um programa em Java para ler o nome e a idade de uma pessoa. Exiba quantos dias de vida ela possui. Considere sempre anos completos, e que um ano possui 365 dias. Ex: uma pessoa com 19 anos possui 6935 dias de vida Um exemplo de saída: "MARIA, VOCÊ JÁ VIVEU 6935 DIAS!"
+um sobrenome
 
-3. Faça um programa em Java que leia da entrada padrão a idade de 4096 pessoas e exiba quantas pessoas são maiores de idade.
+um salário mensal
 
-4. Escreva um programa em Java que lê um vetor osValores(30) de inteiros. Substitua, a seguir, todos os valores iguais a 7 por -7. Escreva o vetor resultante.
+- Sua classe deve ter um construtor que inicializa os três atributos.
+- Forneça um método set e get para cada atributo. Se o salário mensal não for positivo, configure-o como 0.0.
 
-5. Faça uma classe Caneta, que tem um modelo, uma cor, a numeração da ponta, o nível de tinta atual e se ela encontra-se tampada ou não. Escreva a classe TestaCaneta, que testa todas as funcionalidade da classe criada.
+- Escreva uma classe Principal que demonstra as capacidades da classe. Crie duas instâncias da classe e exiba o salário anual de cada instância.
 
-6. Faça uma classe em Java com um método main() que leia da entrada padrão a velocidade máxima permitida em uma avenida e leia a velocidade com que o motorista estava dirigindo nela. Calcule e mostre a multa que uma pessoa vai receber, sabendo os valores:
 
-    6.1. Multa de R$ 50 reais se o motorista ultrapassar em até 10km/h a velocidade permitida
-    
-    6.2. Multa de R$ 100 reais se o motorista ultrapassar de 11 a 30 km/h a velocidade permitida
-    
-    6.3. Multa de R$ 200 reais se estiver igual e acima de 31km/h da velocidade permitida
- 
+
+## Exercícios para os alunos - 0,5 pontos se entregar até ??/08/2022
+1. Considere as informações de um funcionário: nome completo, idade, cargo e salário bruto. Há um desconto de 15% sobre o salário bruto para formar o salário líquido. Escreva uma classe Funcionario que tenha os métodos necessários para executar um programa que exibe na saída padrão o nome, a idade, o cargo, o salário bruto, o salário líquido e o salário líquido anual. Faça métodos assessores (getters e setters), e o construtor adequado para todos os atributos. Faça outra classe com três funcionários distintos. O usuário deverá preencher os dados dos três funcionários.

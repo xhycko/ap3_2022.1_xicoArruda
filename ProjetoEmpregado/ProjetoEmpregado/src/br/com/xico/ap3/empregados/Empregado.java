@@ -9,7 +9,8 @@ um sobrenome
 um salário mensal
 Sua classe deve ter um construtor que inicializa os três atributos.
 Forneça um método set e get para cada atributo. Se o salário mensal não for positivo, configure-o como 0.0.
-Escreva uma classe Principal que demonstra as capacidades da classe. Crie duas instâncias da classe e exiba o salário anual de cada instância.
+Escreva uma classe Principal que demonstra as capacidades da classe.
+Crie duas instâncias da classe e exiba o salário anual de cada instância.
  */
 public class Empregado {
     private String primeiroNome;
@@ -19,7 +20,7 @@ public class Empregado {
     public Empregado(String primeiroNome, String sobrenome, double salarioMensal) {
         this.primeiroNome = primeiroNome;
         this.sobrenome = sobrenome;
-        this.salarioMensal = salarioMensal;
+        setSalarioMensal(salarioMensal);
     }
 
     public String getPrimeiroNome() {
@@ -47,6 +48,10 @@ public class Empregado {
             this.salarioMensal = 0.0;
         else
             this.salarioMensal = salarioMensal;
+    }
+
+    public double getSalarioAnual(){
+        return this.salarioMensal*12;
     }
 
     @Override

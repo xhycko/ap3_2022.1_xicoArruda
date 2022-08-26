@@ -2,7 +2,6 @@ package br.com.xico.aula3.exercicios;
 
 import java.util.Scanner;
 
-//2. Escreva um algoritmo para ler 10 números. Ao final da leitura escrever a todos os números lidos e a média deles.
 public class Aula3_Q2_LerDezESoma {
 	public static void main(String[] args) {
 		Scanner entradaPadrao = new Scanner(System.in);

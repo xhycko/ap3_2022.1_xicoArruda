@@ -1,0 +1,32 @@
+package br.com.xico.ap3.empregados;
+
+/*
+ * A fim de representar empregados em uma firma,
+ * crie uma classe chamada Empregado que inclui as
+ * três informações a seguir como atributos:
+um primeiro nome
+um sobrenome
+um salário mensal
+Sua classe deve ter um construtor que inicializa os três atributos.
+Forneça um método set e get para cada atributo. Se o salário mensal não for positivo, configure-o como 0.0.
+Escreva uma classe Principal que demonstra as capacidades da classe. Crie duas instâncias da classe e exiba o salário anual de cada instância.
+ */
+public class Empregado {
+    private String primeiroNome;
+    private String sobrenome;
+    private double salarioMensal;
+
+    public Empregado(String primeiroNome, String sobrenome, double salarioMensal) {
+        this.primeiroNome = primeiroNome;
+        this.sobrenome = sobrenome;
+        this.salarioMensal = salarioMensal;
+    }
+
+    public Empregado(String primeiroNome) {
+    }
+
+    public Empregado() {
+
+    }
+
+}

@@ -56,8 +56,11 @@ public class Empregado {
 
     @Override
     public String toString() {
-        return "Empregado [primeiroNome=" + primeiroNome + ", salarioMensal=" + salarioMensal + ", sobrenome="
-                + sobrenome + "]";
+        return "Empregado = ["      +
+                "primeiroNome="     + primeiroNome      + "," +
+                "sobrenome="        + sobrenome         + "," +
+                "salarioMensal="    + salarioMensal     + "," +
+                "salarioAnual="     + getSalarioAnual() + "]";
     }
 
 }

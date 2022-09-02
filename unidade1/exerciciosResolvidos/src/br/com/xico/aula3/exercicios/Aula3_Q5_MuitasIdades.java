@@ -32,3 +32,12 @@ public class Aula3_Q5_MuitasIdades {
 		System.out.println("Maiores de idade:" + contadorIdades);
 	}
 }
+
+
+
+
+
+
+
+
+

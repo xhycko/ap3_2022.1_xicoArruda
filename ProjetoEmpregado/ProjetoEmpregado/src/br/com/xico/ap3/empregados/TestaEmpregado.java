@@ -1,5 +1,8 @@
 package br.com.xico.ap3.empregados;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 import java.util.Scanner;
 
 public class TestaEmpregado {
@@ -24,20 +27,26 @@ public class TestaEmpregado {
     public static void main(String[] args) throws Exception {
         System.out.println("Aqui testaremos os empregados!");
 
-        Empregado xico = new Empregado("Xico", "Arruda", -10.0);
-        Empregado rafael = new Empregado("Rafael", "Cavalcante", 9999.0);
+        Random gerador = new Random();
 
-        System.out.println(xico);
-        System.out.println(rafael);
+        List<Empregado> osEmpregados = new ArrayList<Empregado>();
 
-        rafael.setSalarioMensal(11000.0);
-        System.out.println(rafael);
+        Scanner entradaPadrao = new Scanner(System.in);
 
-        System.out.println("Salário anual de Rafael:");
-        System.out.println(rafael.getSalarioAnual());
+        int vemDoUsuario = entradaPadrao.nextInt();
 
-        Empregado novoEmpregado = leEmpregado();
-        System.out.println("O novo empregado é:");
-        System.out.println(novoEmpregado);
+        for (int i = 0; i < vemDoUsuario; i++) {
+            String primeiroNome = "Empregado" + i;
+            String sobrenome = "Sobrenome" + i;
+            double salarioMensal = gerador.nextInt(1000);
+            Empregado novo = new Empregado(primeiroNome, sobrenome, salarioMensal);
+            osEmpregados.add(novo);
+        }
+
+        for (int i = 0; i < osEmpregados.size(); i++) {
+            System.out.println(osEmpregados.get(i));
+        }
+        System.out.println("Acabei!");
+
     }
 }

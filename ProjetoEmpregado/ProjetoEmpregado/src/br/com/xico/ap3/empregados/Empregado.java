@@ -13,7 +13,7 @@ Escreva uma classe Principal que demonstra as capacidades da classe.
 Crie duas instâncias da classe e exiba o salário anual de cada instância.
  */
 public class Empregado {
-    private String primeiroNome;
+    public String primeiroNome;
     private String sobrenome;
     private double salarioMensal;
 
@@ -28,7 +28,7 @@ public class Empregado {
     }
 
     public void setPrimeiroNome(String primeiroNome) {
-        this.primeiroNome = primeiroNome;
+            this.primeiroNome = primeiroNome;
     }
 
     public String getSobrenome() {
@@ -50,6 +50,10 @@ public class Empregado {
             this.salarioMensal = salarioMensal;
     }
 
+    /**
+     * Retorna o salário mensal multiplicado por 12.
+     * @return 
+     */
     public double getSalarioAnual(){
         return this.salarioMensal*12;
     }

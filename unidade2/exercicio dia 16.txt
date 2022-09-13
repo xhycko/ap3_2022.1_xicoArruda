@@ -1,0 +1,24 @@
+3,0
+
+Implemente uma classe Carro, com os seguintes atributos na classe:
+Modelo,  Cor, Ano, Marca, Chassi, Proprietário, Velocidade máxima, Velocidade atual, Nr de portas, tem teto solar?
+ Nr Marchas, tem cambio automatico? , Volume de combustível,
+
+Faça o encapsulamento da classe Carro e seus atributos
+Implemente o método acelera que aumenta a velocidade de 1 em 1 km/h
+Implemente o método freia que para o carro – Velocidade = 0 km/h
+Implemete o método troca marcha
+Implemente o método reduz a marcha;
+Todo veículo tem um proprietário obrigatoriamente (implemente um construtor de veículo passando o proprietário como parâmetro);
+A marcha ré nao pode ser engatada se o a velocidade for superior a 0 KM/h;
+Transforme o atributo Marca de um carro em uma classe Marca com nome, nrDeModelos, ano de lançamento e código identificador
+
+
+Implemente um método que calcule a autonomia de viagem do veículo com base no consumo médio passado como parâmetro;
+Todo veículo tem um proprietário obrigatoriamente (implemente um construtor de veículo passando o proprietário como parâmetro);
+A marcha ré nao pode ser engatada se o a velocidade for superior a 0 KM/h;
+Implemente um método que calcule a autonomia de viagem do veículo com base no consumo médio passado como parâmetro;
+Implemente um método para exibir o volume de combustível 
+
+
+Instancie um objeto da classe Carro, Pessoa, Endereço, Marca e relacione os objetos utilizando os métodos ou construtores quando necessário.

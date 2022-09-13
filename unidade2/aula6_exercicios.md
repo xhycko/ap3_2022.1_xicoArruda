@@ -6,7 +6,7 @@
 ## Exercícios para os alunos - 3,0 pontos se entregar até ??/09/2022
 2. Construa a classe Filme em Java, que obedeça à descrição abaixo:
 
-![Classe Filme](filme2.jpg)
+![Classe Filme](filme.jpg)
 
 A classe deve possuir dois atributos privados: titulo (do tipo String) e duracaoEmMinutos (do tipo int)
 - Crie um construtor para a classe que recebe 2 parâmetros, cada um representando um dos atributos da
@@ -33,7 +33,7 @@ umFilmeQualquer e no lugar de Y deverá aparecer o título do meuFilmeFavorito.
 
 3. Crie a classe Livro que obedeça à descrição abaixo:
 
-![Classe Livro](livro2.jpg)
+![Classe Livro](livro.jpg)
 
 A classe possui os atributos titulo, qtdPaginas e paginasLidas. Esses atributos devem ser marcados com
 o modificador de acesso private.

@@ -63,9 +63,7 @@ informações do livro que você está lendo no momento (ou do último livro que
 atributo titulo e, no lugar de Y deverá aparecer o valor do atributo qtdPaginas do objeto meuLivro.
 
 
-1. 
-
-Implemente uma classe Carro, com os seguintes atributos na classe:
+1. Implemente uma classe Carro, com os seguintes atributos na classe:
 Modelo,  Cor, Ano, Marca, Chassi, Proprietário, Velocidade máxima, Velocidade atual, Nr de portas, tem teto solar?
  Nr Marchas, tem cambio automatico? , Volume de combustível,
 

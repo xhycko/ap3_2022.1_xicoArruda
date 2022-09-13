@@ -47,6 +47,7 @@ public class TestaEmpregado {
             System.out.println(osEmpregados.get(i));
         }
         System.out.println("Acabei!");
-
+        
+        entradaPadrao.close();
     }
 }

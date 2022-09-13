@@ -10,7 +10,7 @@ Instalação e configuração do ambiente de programação, feito em sala de aul
 Disciplina no gDrive [aqui](https://drive.google.com/open?id=1Cjczcx-O7izOqtwkY0DaNuokbn9cJmOr).
 
 ## Aula 2 - Git e Classe Pessoa
-Controle de versão, Git, GitHub, GitHub Desktop. Classe Pessoa.java (idade (int) e nome completo (String)), e TestaPessoa.java com main() e uso de get() e set().
+Controle de versão, Git, GitHub, GitHub Desktop. Classe Pessoa.java e TestaPessoa.java, getters e setters.
 
 Exercício [aqui](unidade1/aula2_exercicios.md).
 

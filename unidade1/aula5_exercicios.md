@@ -1,7 +1,9 @@
 # Aula 5
 
-## Exercícios para os alunos - 2,5 pontos se entregar até 19/09/2022
-Crie o ProjetoContato no seu repositório, com a seguinte descrição:
+## Exercícios para os alunos - 4,0 pontos se entregar até 20/09/2022
+1. Crie o ProjetoContato no seu repositório, com a seguinte descrição:
+
+2. Crie o ProjetoContato no seu repositório, com a seguinte descrição:
 
 O programa deve ser capaz de cadastrar 5 contatos do tipo Contato, contendo nomeCompleto, email, telefone do tipo String e a dataDeNascimento do tipo LocalDate.
 
@@ -10,3 +12,4 @@ No projeto, crie um ArrayList tipado para a classe Contato, conforme visto em sa
 Não se esqueça de encapsular os campos e de criar um novo contato a cada nova inserção de dados na lista.
 
 Crie a classe TestaContato.java ou Agenda.java para testar as funcionalidades da classe Contato.
+

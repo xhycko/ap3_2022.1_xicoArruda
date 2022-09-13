@@ -20,12 +20,17 @@ Veja [aqui](unidade1/aula3_exercicios.md).
 Orientação a objetos, tipos compostos, projeto no vscode, exercícios em Java da classe Empregado.
 Veja [aqui](unidade1/aula4_exercicios.md).
 
+## Aula 5 - Encapsulamento, uso de *List*, projeto Contato.
+Orientação a objetos, tipos compostos, projeto no vscode, exercícios em Java da classe Contato.
+Veja [aqui](unidade1/aula5_exercicios.md).
+
 ---
 
 # Unidade 2
 
-## Aula X
-A ver...
+## Aula 6 - Encapsulamento, Abstração, Composição
+Aprimoramento da classe Contato, com classe Pessoa, Endereço, Estado, CEP.
+Veja [aqui](unidade2/aula6_exercicios.md).
 
 ---
 

@@ -34,7 +34,7 @@ Exercício [aqui](unidade1/aula5_exercicios.md).
 # Unidade 2
 
 ## Aula 6 - Encapsulamento, Abstração, Composição
-Aprimoramento da classe Contato, composição com as classes Endereço, Estado, enum CEP e implementação de serialização e interface Pessoa.
+Aprimoramento da classe Contato, composição com as classes Endereço, enum Estado, CEP e implementação de serialização e interface Pessoa.
 
 Exercício [aqui](unidade2/aula6_exercicios.md).
 

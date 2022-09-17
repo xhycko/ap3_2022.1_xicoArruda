@@ -1,7 +1,7 @@
 # Aula 5
 
-## Exercícios para os alunos - 4,0 pontos se entregar até 21/09/2022
-1. Identifique as classes e implemente um programa para a seguinte especificação: Um supermercado vende diferentes tipos de produtos. Cada produto tem um preço e uma quantidade em estoque. Um pedido de um cliente é composto de itens, onde cada item especifica o produto que o cliente deseja e a respectiva quantidade. Esse pedido pode ser pago em dinheiro, cheque ou cartão.
+## Exercícios para os alunos - 4,0 pontos se entregar até 22/09/2022
+1. Identifique as classes e implemente um programa para a seguinte especificação: Um supermercado vende diferentes tipos de produtos. Cada produto tem um preço e uma quantidade em estoque. Um pedido de um cliente é composto de itens, onde cada item especifica o produto que o cliente deseja e a respectiva quantidade. Esse pedido pode ser pago em dinheiro, pix ou cartão.
 
 - Pense no "é um" versus "tem um" visto em aula. Faça uma classe com o método main() que teste as funcionalidades das classes.
 

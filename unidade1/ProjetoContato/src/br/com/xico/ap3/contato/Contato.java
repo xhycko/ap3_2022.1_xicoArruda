@@ -1,13 +1,26 @@
 package br.com.xico.ap3.contato;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class Contato {
+import br.com.xico.ap3.contato.endereco.Endereco;
+
+public class Contato implements Pessoa, Serializable {
+
+    @Override
+    public String toString() {
+        return "Contato [dataDeNascimento=" + "dataDeNascimento="
+                + dataDeNascimento.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) + ", email=" + email
+                + ", endereco=" + endereco
+                + ", nomeCompleto=" + nomeCompleto + ", telefone=" + telefone + "]";
+
+    }
 
     private String nomeCompleto;
     private String email;
     private String telefone;
+    private Endereco endereco;
     private LocalDate dataDeNascimento;
 
     public String getNomeCompleto() {
@@ -42,15 +55,11 @@ public class Contato {
         this.dataDeNascimento = dataDeNascimento;
     }
 
-    @Override
-    public String toString() {
+    public Endereco getEndereco() {
+        return endereco;
+    }
 
-
-        return "Contato[" +
-                "email=" + email + ", " +
-                "nomeCompleto=" + nomeCompleto + ", " +
-                "telefone=" + telefone + ", " +
-                "dataDeNascimento=" + dataDeNascimento.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) + 
-                "]";
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
     }
 }
